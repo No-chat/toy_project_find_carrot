@@ -41,6 +41,7 @@ function randomCoordinate(direction) {
     const x_max = fieldRect.right-80;
     const y_min = fieldRect.top;
     const y_max = fieldRect.bottom-80;
+    console.log(x_min,x_max,y_min,y_max);
     switch(direction) {
         case 'x':
             return Math.floor(Math.random()*(x_max-x_min)+x_min);
