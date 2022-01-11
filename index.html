@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy_project_simpleGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link 
+        rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+        crossorigin="anonymous"
+    >
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Shadows+Into+Light&display=swap" 
+        rel="stylesheet"
+    >
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section class="game">
+        <header class="game_title">Find the <span>carrot</span></header>
+        <main class="game_header hidden">
+            <button class="game_stop_button">
+                <i class="fas fa-stop"></i>
+            </button>
+            <span class="game_timer"></span>
+            <span class="game_score"></span>
+        </main>
+        <button class="game_start_button">Press start!</button>
+        <section class="game_field"></section>
+    </section>
+    <section class="hidden pop-up">
+        <button class="replay_button">
+            <i class="fas fa-redo"></i>
+        </button>
+        <span class="pop-up_message">Replay?</span>
+    </section>
+</body>
+</html>

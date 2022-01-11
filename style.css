@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.hidden {
+    display: none!important;
+}
+
+button:hover,
+img:hover {
+    transform: scale(1.1);
+}
+
+.game_title {
+    height: 120px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.game_title span {
+    color: tomato;
+}
+
+.game_start_button {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 20%;
+    margin: auto;
+}
+
+.game {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url("./img/background.png");
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.game_header {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game_stop_button,
+.replay_button {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    font-size: 20px;
+}
+
+.game_timer {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 32px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.game_score {
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    background-color: tomato;
+    border-radius: 50%;
+    color: white;
+}
+
+.game_field {
+    width: 100%;
+    height: 100%;
+    margin-top: 95px;
+}
+
+.pop-up {
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    background: rgba(1, 1, 1, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translateY(-150%);
+    color: white;
+}
+
+.pop-up_message {
+    font-size: 48px;
+}
+
